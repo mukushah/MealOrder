@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1ceedd13-76d0-4720-b596-e565c030854b" name="Baloo@BALOO-PC 2014-07-22 19:53:28" runUser="Baloo-PC\Baloo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6f8b6fd6-1feb-4147-b75a-19abb6547f2f">
+    <Deployment userDeploymentRoot="C:\Source\codebase\dotnet\order" useDefaultDeploymentRoot="false" runDeploymentRoot="Baloo_BALOO-PC 2014-07-22 19_53_28" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-22T19:53:28.2074597-05:00" queuing="2014-07-22T19:53:28.2964648-05:00" start="2014-07-22T19:53:28.3224663-05:00" finish="2014-07-22T19:53:28.5434789-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NameTest" storage=".\testorder\bin\debug\testorder.dll" id="df14bf64-82f8-ae68-5f67-c4ec91b61031">
+      <Execution id="2796a419-f070-494f-a793-e40e3dc23628" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NameTest" />
+    </UnitTest>
+    <UnitTest name="AllowMultipleTest" storage=".\testorder\bin\debug\testorder.dll" id="950a9184-4c37-d245-76f5-30f6a852215d">
+      <Execution id="58c60a80-a724-4417-9680-82ff8e6250f4" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AllowMultipleTest" />
+    </UnitTest>
+    <UnitTest name="dishConstructorTest" storage=".\testorder\bin\debug\testorder.dll" id="9533d9d3-1ffe-1a2e-8f6a-3249c01a29b9">
+      <Execution id="86a58c2a-2670-4c96-adac-55a033e833a3" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="dishConstructorTest" />
+    </UnitTest>
+    <UnitTest name="isValidTest" storage=".\testorder\bin\debug\testorder.dll" id="278a751a-3e6d-d848-7bf3-235921e4db6f">
+      <Execution id="48a2455c-d8a2-4091-ac93-52ac9080ca77" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="isValidTest" />
+    </UnitTest>
+    <UnitTest name="InputCustomerOrderTest" storage=".\testorder\bin\debug\testorder.dll" id="c44e6660-c3c2-12cd-e35f-932aa2f2a16b">
+      <Execution id="d05edb75-2d24-4e5b-8f56-cd91dfa7b1d2" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.ProgramTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InputCustomerOrderTest" />
+    </UnitTest>
+    <UnitTest name="OutputStringTest" storage=".\testorder\bin\debug\testorder.dll" id="7bea0c79-65ab-9b9e-d4be-c760780e1b67">
+      <Execution id="d8120fea-e2f7-4376-833a-222aa3f53594" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.ProgramTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OutputStringTest" />
+    </UnitTest>
+    <UnitTest name="resetDishCountTest" storage=".\testorder\bin\debug\testorder.dll" id="1894ca6a-5c8c-00ec-5b78-a7ca4f7a2a56">
+      <DeploymentItems>
+        <DeploymentItem filename="order.exe" />
+      </DeploymentItems>
+      <Execution id="6afda2b0-e6c5-4047-bd14-4f95f6e39079" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.ProgramTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="resetDishCountTest" />
+    </UnitTest>
+    <UnitTest name="AddDishTest" storage=".\testorder\bin\debug\testorder.dll" id="cb5f72fd-0edb-4786-e2f8-9663a9f9f424">
+      <Execution id="0fc122d4-265d-432a-afe0-4ccb6c3ac401" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddDishTest" />
+    </UnitTest>
+    <UnitTest name="ToStringTest" storage=".\testorder\bin\debug\testorder.dll" id="a5ebbf9c-5904-6624-d7af-67bcb280a154">
+      <Execution id="d04cebd6-e134-4e0f-92ce-99e653075610" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToStringTest" />
+    </UnitTest>
+    <UnitTest name="resetDishCountTest" storage=".\testorder\bin\debug\testorder.dll" id="502a7dbd-b66d-4afd-b2ea-f741d3e277ab">
+      <Execution id="1e339b00-cea6-4f4f-99db-360214d695c8" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="resetDishCountTest" />
+    </UnitTest>
+    <UnitTest name="CountTest" storage=".\testorder\bin\debug\testorder.dll" id="cb1f6697-2278-54b8-a269-6edbf78859f9">
+      <Execution id="338253e0-aa21-46bc-90f1-cb74e09a3dae" />
+      <TestMethod codeBase="C:/Source/codebase/dotnet/order/TestOrder/bin/Debug/TestOrder.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestOrder.dishTest, TestOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cb5f72fd-0edb-4786-e2f8-9663a9f9f424" executionId="0fc122d4-265d-432a-afe0-4ccb6c3ac401" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="950a9184-4c37-d245-76f5-30f6a852215d" executionId="58c60a80-a724-4417-9680-82ff8e6250f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb1f6697-2278-54b8-a269-6edbf78859f9" executionId="338253e0-aa21-46bc-90f1-cb74e09a3dae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9533d9d3-1ffe-1a2e-8f6a-3249c01a29b9" executionId="86a58c2a-2670-4c96-adac-55a033e833a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="278a751a-3e6d-d848-7bf3-235921e4db6f" executionId="48a2455c-d8a2-4091-ac93-52ac9080ca77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df14bf64-82f8-ae68-5f67-c4ec91b61031" executionId="2796a419-f070-494f-a793-e40e3dc23628" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="502a7dbd-b66d-4afd-b2ea-f741d3e277ab" executionId="1e339b00-cea6-4f4f-99db-360214d695c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5ebbf9c-5904-6624-d7af-67bcb280a154" executionId="d04cebd6-e134-4e0f-92ce-99e653075610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c44e6660-c3c2-12cd-e35f-932aa2f2a16b" executionId="d05edb75-2d24-4e5b-8f56-cd91dfa7b1d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bea0c79-65ab-9b9e-d4be-c760780e1b67" executionId="d8120fea-e2f7-4376-833a-222aa3f53594" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1894ca6a-5c8c-00ec-5b78-a7ca4f7a2a56" executionId="6afda2b0-e6c5-4047-bd14-4f95f6e39079" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0fc122d4-265d-432a-afe0-4ccb6c3ac401" testId="cb5f72fd-0edb-4786-e2f8-9663a9f9f424" testName="AddDishTest" computerName="BALOO-PC" duration="00:00:00.0111861" startTime="2014-07-22T19:53:28.3274666-05:00" endTime="2014-07-22T19:53:28.4874757-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fc122d4-265d-432a-afe0-4ccb6c3ac401">
+    </UnitTestResult>
+    <UnitTestResult executionId="58c60a80-a724-4417-9680-82ff8e6250f4" testId="950a9184-4c37-d245-76f5-30f6a852215d" testName="AllowMultipleTest" computerName="BALOO-PC" duration="00:00:00.0006827" startTime="2014-07-22T19:53:28.4894758-05:00" endTime="2014-07-22T19:53:28.4924760-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58c60a80-a724-4417-9680-82ff8e6250f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="338253e0-aa21-46bc-90f1-cb74e09a3dae" testId="cb1f6697-2278-54b8-a269-6edbf78859f9" testName="CountTest" computerName="BALOO-PC" duration="00:00:00.0001394" startTime="2014-07-22T19:53:28.4934760-05:00" endTime="2014-07-22T19:53:28.4954762-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="338253e0-aa21-46bc-90f1-cb74e09a3dae">
+    </UnitTestResult>
+    <UnitTestResult executionId="86a58c2a-2670-4c96-adac-55a033e833a3" testId="9533d9d3-1ffe-1a2e-8f6a-3249c01a29b9" testName="dishConstructorTest" computerName="BALOO-PC" duration="00:00:00.0002055" startTime="2014-07-22T19:53:28.4964762-05:00" endTime="2014-07-22T19:53:28.4984763-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86a58c2a-2670-4c96-adac-55a033e833a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="48a2455c-d8a2-4091-ac93-52ac9080ca77" testId="278a751a-3e6d-d848-7bf3-235921e4db6f" testName="isValidTest" computerName="BALOO-PC" duration="00:00:00.0002466" startTime="2014-07-22T19:53:28.5004764-05:00" endTime="2014-07-22T19:53:28.5014765-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48a2455c-d8a2-4091-ac93-52ac9080ca77">
+    </UnitTestResult>
+    <UnitTestResult executionId="2796a419-f070-494f-a793-e40e3dc23628" testId="df14bf64-82f8-ae68-5f67-c4ec91b61031" testName="NameTest" computerName="BALOO-PC" duration="00:00:00.0001542" startTime="2014-07-22T19:53:28.5034766-05:00" endTime="2014-07-22T19:53:28.5044767-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2796a419-f070-494f-a793-e40e3dc23628">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e339b00-cea6-4f4f-99db-360214d695c8" testId="502a7dbd-b66d-4afd-b2ea-f741d3e277ab" testName="resetDishCountTest" computerName="BALOO-PC" duration="00:00:00.0001669" startTime="2014-07-22T19:53:28.5064768-05:00" endTime="2014-07-22T19:53:28.5074768-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e339b00-cea6-4f4f-99db-360214d695c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="d04cebd6-e134-4e0f-92ce-99e653075610" testId="a5ebbf9c-5904-6624-d7af-67bcb280a154" testName="ToStringTest" computerName="BALOO-PC" duration="00:00:00.0003042" startTime="2014-07-22T19:53:28.5094770-05:00" endTime="2014-07-22T19:53:28.5114771-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d04cebd6-e134-4e0f-92ce-99e653075610">
+    </UnitTestResult>
+    <UnitTestResult executionId="d05edb75-2d24-4e5b-8f56-cd91dfa7b1d2" testId="c44e6660-c3c2-12cd-e35f-932aa2f2a16b" testName="InputCustomerOrderTest" computerName="BALOO-PC" duration="00:00:00.0005216" startTime="2014-07-22T19:53:28.5124771-05:00" endTime="2014-07-22T19:53:28.5144773-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d05edb75-2d24-4e5b-8f56-cd91dfa7b1d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8120fea-e2f7-4376-833a-222aa3f53594" testId="7bea0c79-65ab-9b9e-d4be-c760780e1b67" testName="OutputStringTest" computerName="BALOO-PC" duration="00:00:00.0004422" startTime="2014-07-22T19:53:28.5164774-05:00" endTime="2014-07-22T19:53:28.5174774-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8120fea-e2f7-4376-833a-222aa3f53594">
+    </UnitTestResult>
+    <UnitTestResult executionId="6afda2b0-e6c5-4047-bd14-4f95f6e39079" testId="1894ca6a-5c8c-00ec-5b78-a7ca4f7a2a56" testName="resetDishCountTest" computerName="BALOO-PC" duration="00:00:00.0090097" startTime="2014-07-22T19:53:28.5194775-05:00" endTime="2014-07-22T19:53:28.5304782-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6afda2b0-e6c5-4047-bd14-4f95f6e39079">
+    </UnitTestResult>
+  </Results>
+</TestRun>

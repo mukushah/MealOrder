@@ -1,0 +1,6 @@
+C:\Source\codebase\dotnet\order\order\obj\x86\Debug\order.csprojResolveAssemblyReference.cache
+C:\Source\codebase\dotnet\order\order\bin\Debug\order.exe
+C:\Source\codebase\dotnet\order\order\bin\Debug\order.pdb
+C:\Source\codebase\dotnet\order\order\obj\x86\Debug\order.exe
+C:\Source\codebase\dotnet\order\order\obj\x86\Debug\order.pdb
+C:\Source\codebase\dotnet\order\order\bin\Debug\order.exe.config

@@ -1,0 +1,10 @@
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\TestOrder.dll
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\TestOrder.pdb
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\order.exe
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\order.pdb
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\order_Accessor.exe
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\order_Accessor.pdb
+C:\Source\codebase\dotnet\order\TestOrder\obj\Debug\TestOrder.csprojResolveAssemblyReference.cache
+C:\Source\codebase\dotnet\order\TestOrder\obj\Debug\TestOrder.dll
+C:\Source\codebase\dotnet\order\TestOrder\obj\Debug\TestOrder.pdb
+C:\Source\codebase\dotnet\order\TestOrder\bin\Debug\TestOrder.dll.config
